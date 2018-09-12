@@ -1,0 +1,38 @@
+{
+  "name": "alfred-google-books",
+  "version": "0.0.0",
+  "description": "Alfred 3 workflow to search for Google Books on https://books.google.de/",
+  "license": "MIT",
+  "repository": "dameck/alfred-google-books",
+  "author": {
+    "name": "Damian Framke",
+    "email": "kontakt@bytesolutions.de",
+    "url": "bytesolutions.de"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
