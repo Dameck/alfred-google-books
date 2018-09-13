@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>google-books</string>
+    <string>Search for Google Books</string>
     <key>bundleid</key>
     <string>com.dameck.google-books</string>
     <key>category</key>
-    <string>Internet</string>
+    <string>Productivity</string>
     <key>connections</key>
     <dict>
       <key>EF34C6B9-7611-4853-8DA5-0A4CD0A37DDB</key>
@@ -77,7 +77,7 @@
           <key>subtext</key>
           <string/>
           <key>title</key>
-          <string>Alfred 3 workflow to search for Google Books on https://books.google.de/</string>
+          <string>Search for Google Books</string>
           <key>type</key>
           <integer>0</integer>
           <key>withspace</key>
@@ -111,9 +111,9 @@
       </dict>
     </dict>
     <key>version</key>
-    <string>0.0.1</string>
+    <string>0.1.0</string>
     <key>description</key>
-    <string>Alfred 3 workflow to search for Google Books on https://books.google.de/</string>
+    <string>Alfred 3 workflow to search for Google Books on https://books.google.com/</string>
     <key>webaddress</key>
     <string>https://github.com/dameck/alfred-google-books#readme</string>
     <key>createdby</key>
