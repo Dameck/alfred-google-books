@@ -1,6 +1,6 @@
 # alfred-google-books [![Build Status](https://travis-ci.org/Dameck/alfred-google-books.svg?branch=master)](https://travis-ci.org/dameck/alfred-google-books)
 
-> Alfred 3 workflow to search for Google Books on https://books.google.de/
+> Alfred 3 workflow to search for Google Books on https://books.google.com/
 
 <img src="media/screenshot.png" width="694">
 
