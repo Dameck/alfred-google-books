@@ -1,6 +1,6 @@
 {
   "name": "alfred-google-books",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Alfred 3 workflow to search for Google Books on https://books.google.de/",
   "license": "MIT",
   "repository": "dameck/alfred-google-books",
@@ -28,7 +28,10 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.6.0"
+    "alfy": "^0.6.0",
+    "del": "^3.0.0",
+    "download": "^7.1.0",
+    "temp-dir": "^1.0.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",

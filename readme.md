@@ -8,6 +8,10 @@
 ```
 $ npm install --global alfred-google-books
 ```
+or
+```
+$ yarn global add alfred-google-books
+```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
@@ -16,7 +20,8 @@ $ npm install --global alfred-google-books
 
 In Alfred, type `gb`, <kbd>Enter</kbd>, and your query.
 
-
 ## License
 
-MIT © [Damian Framke](bytesolutions.de)
+MIT © [Damian Framke](http://www.bytesolutions.de)
+
+*Contributions and feedback are welcome and encouraged!*
