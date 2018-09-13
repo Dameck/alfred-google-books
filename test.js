@@ -7,7 +7,7 @@ test(async t => {
 	const result = await alfy('JavaScript The Good Parts');
 
 	t.deepEqual(result[0], {
-		arg: 'http://books.google.de/books?id=PXa2bby0oQ0C&pg=PA66&dq=q%3DJavaScript+The+Good+Parts&hl=&cd=1&source=gbs_api',
+		arg: 'http://books.google.com/books?id=PXa2bby0oQ0C&printsec=frontcover&dq=q%3DJavaScript+The+Good+Parts&hl=&cd=1&source=gbs_api',
 		title: 'JavaScript: The Good Parts',
 		subtitle: 'Douglas Crockford | 2008-05-08',
 		quicklookurl: 'http://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
