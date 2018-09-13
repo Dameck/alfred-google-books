@@ -2,6 +2,8 @@
 
 > Alfred 3 workflow to search for Google Books on https://books.google.de/
 
+<img src="media/screenshot.png" width="694">
+
 
 ## Install
 
