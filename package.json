@@ -1,7 +1,7 @@
 {
   "name": "alfred-google-books",
   "version": "0.1.0",
-  "description": "Alfred 3 workflow to search for Google Books on https://books.google.de/",
+  "description": "Alfred 3 workflow to search for Google Books on https://books.google.com/",
   "license": "MIT",
   "repository": "dameck/alfred-google-books",
   "author": {
