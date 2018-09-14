@@ -4,11 +4,19 @@ const os = require('os');
 const fs = require('fs');
 const del = require('del');
 const alfy = require('alfy');
+const join = require('join-array');
+const moment = require('moment');
 const tempDir = require('temp-dir');
 const download = require('download');
 
 const q = `q=${alfy.input}`;
 const tempImageDir = `${os.tmpdir()}/alfred-google-books/`;
+
+function buildSubtitle(info) {
+	const list = [info.authors, info.publisher, info.publishedDate];
+	const subtitle = list.filter(Boolean);
+	return join(subtitle, ' | ', ' | ');
+}
 
 alfy.fetch('https://www.googleapis.com/books/v1/volumes', {
 	method: 'GET',
@@ -26,7 +34,7 @@ alfy.fetch('https://www.googleapis.com/books/v1/volumes', {
 		return {
 			arg: item.volumeInfo.previewLink,
 			title: item.volumeInfo.title,
-			subtitle: item.volumeInfo.authors + ' | ' + item.volumeInfo.publishedDate,
+			subtitle: buildSubtitle(item.volumeInfo),
 			quicklookurl: item.volumeInfo.imageLinks.thumbnail,
 			icon: {
 				path: `${tempImageDir}${item.id}.jpg`
