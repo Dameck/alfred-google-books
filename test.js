@@ -7,12 +7,12 @@ test(async t => {
 	const result = await alfy('The Art of Computer Programming');
 
 	t.deepEqual(result[0], {
-		arg: 'http://books.google.de/books?id=cYULBAAAQBAJ&pg=PA57&dq=q%3DThe+Art+of+Computer+Programming&hl=&cd=1&source=gbs_api',
-		title: 'The Art of Computer Programming',
-		subtitle: 'Donald E. Knuth | Addison-Wesley Professional | 1998-04-24',
-		quicklookurl: 'http://books.google.de/books?id=cYULBAAAQBAJ&pg=PA57&dq=q%3DThe+Art+of+Computer+Programming&hl=&cd=1&source=gbs_api',
+		arg: 'http://books.google.com/books?id=x9AsAwAAQBAJ&printsec=frontcover&dq=q%3DThe+Art+of+Computer+Programming&hl=&cd=1&source=gbs_api',
+		title: 'JavaScript: The Good Parts',
+		subtitle: 'Donald E. Knuth | Addison-Wesley Professional | 1997-07-04',
+		quicklookurl: 'http://books.google.com/books/content?id=x9AsAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
 		icon: {
-			path: '/tmp/alfred-google-books/cYULBAAAQBAJ.jpg'
+			path: '/tmp/alfred-google-books/x9AsAwAAQBAJ.jpg'
 		}
 	});
 });
