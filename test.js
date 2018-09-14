@@ -1,4 +1,4 @@
-/* eslint-disable no-script-url, no-useless-escape, quotes */
+/* eslint-disable no-script-url */
 import test from 'ava';
 import alfyTest from 'alfy-test';
 
