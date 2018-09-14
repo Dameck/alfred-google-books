@@ -5,7 +5,6 @@ const fs = require('fs');
 const del = require('del');
 const alfy = require('alfy');
 const join = require('join-array');
-const moment = require('moment');
 const tempDir = require('temp-dir');
 const download = require('download');
 
