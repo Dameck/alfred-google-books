@@ -8,7 +8,7 @@ test(async t => {
 
 	t.deepEqual(result[0], {
 		arg: 'http://books.google.com/books?id=x9AsAwAAQBAJ&printsec=frontcover&dq=q%3DThe+Art+of+Computer+Programming&hl=&cd=1&source=gbs_api',
-		title: 'JavaScript: The Good Parts',
+		title: 'The Art of Computer Programming',
 		subtitle: 'Donald E. Knuth | Addison-Wesley Professional | 1997-07-04',
 		quicklookurl: 'http://books.google.com/books/content?id=x9AsAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
 		icon: {
