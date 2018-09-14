@@ -29,17 +29,17 @@ alfy.fetch('https://www.googleapis.com/books/v1/volumes', {
 	}
 
 	const items = data.items
-	.map(item => {
-		return {
-			arg: item.volumeInfo.previewLink,
-			title: item.volumeInfo.title,
-			subtitle: buildSubtitle(item.volumeInfo),
-			quicklookurl: item.volumeInfo.imageLinks.thumbnail,
-			icon: {
-				path: `${tempImageDir}${item.id}.jpg`
-			}
-		};
-	});
+		.map(item => {
+			return {
+				arg: item.volumeInfo.previewLink,
+				title: item.volumeInfo.title,
+				subtitle: buildSubtitle(item.volumeInfo),
+				quicklookurl: item.volumeInfo.imageLinks.thumbnail,
+				icon: {
+					path: `${tempImageDir}${item.id}.jpg`
+				}
+			};
+		});
 
 	data.items.map(item => {
 		return download(item.volumeInfo.imageLinks.thumbnail).then(data => {
